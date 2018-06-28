@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="js.js"></script>
+    <title>ELSYS DIY SHOP</title>
+  </head>
+  <body background="https://actpcb.com/media/Semiconductor-Banner.jpg">
+    <script>
+    var clicks = 0;
+    function counterClick() {
+        clicks += 1;
+        document.getElementById("clicks").innerHTML = clicks;
+        
+    };
+    </script>
+
+<div class="map">
+  <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1p3F_wokdA3rhdBR-ZRCW9AEHQrTNZEnC" width="1000" height="480" style="position:relative; top: 100px; left: 20px;"></iframe>
+</div>
+
+<div class="social_media">
+  <p>Social media hits: <a id="clicks">0</a></p>
+</div>
+
+
+
+
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" style="left:-1px;">
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="siteche.html">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="shop.html">Shop</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="contact.html">Contact</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="main.html">Fun</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="html.html">Search</a>
+    </li>
+  </ul>
+</nav>
+
+<div class="media_links">
+  <a target="_blank" href="https://twitter.com/twitter?lang=bg"><img src="twc.png" alt="tw" height="150" width="150" style="position:relative; left: 20px;" onclick="counterClick()">
+  <a target="_blank" href="https://bg-bg.facebook.com/"><img src="fbc.png" alt="fb" height="150" width="150" style="position:relative; left: 40px;" onclick="counterClick()">
+
+</div>
+
+</body>
+
+
+
+
+  </html>

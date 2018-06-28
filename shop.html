@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="js.js"></script>
+
+    <title>ELSYS DIY SHOP</title>
+    <style>
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("http://www.riversideelectronics.com/wp-content/uploads/2013/08/background.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+</style>
+  </head>
+  <script>
+  var clicks = 0;
+  function counterClick() {
+    alert("Out of stock!");
+
+
+  };
+  </script>
+  <body>
+    <div class="bg"></div>
+
+
+
+    
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" style="left:-1px;">
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="siteche.html">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="shop.html">Shop</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="contact.html">Contact</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="main.html">Fun</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="html.html">Search</a>
+    </li>
+  </ul>
+</nav>
+<div class="item1" onclick="counterClick()">
+  <p class="shoptext">25$</p>
+  <img class="shopimg1"src="http://www.shoopbg.eu/shoop/images/stories/virtuemart/product/ARDUINO_NANO_031.png" alt="Broken" height="200" width="200">
+
+</div>
+
+<div class="item2" onclick="counterClick()">
+  <p class="shoptext">50$</p>
+  <img class="shopimg1" src="https://www.freeiconspng.com/uploads/arduino-icon-17.png" alt="Broken" height="220" width="220">
+
+
+</div>
+<div class="item3" onclick="counterClick()">
+    <p class="shoptext">100$</p>
+    <img class="shopimg1" src="https://media.ncd.io/sites/2/20180327145257/ESP32_2.png" alt="Broken" height="210" width="230">
+</div>
+
+
+  </body>
+  </html>

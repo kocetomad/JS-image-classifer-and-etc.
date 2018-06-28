@@ -1,0 +1,25 @@
+<script src="bundle.js"></script>
+
+<script type="text/javascript" src="https://sdk.clarifai.com/js/clarifai-latest.js"></script>
+<input type="text" id="box">
+<p id="para">Ceci Peci</p>
+<p id="ok">Second</p>
+
+<button onclick="LogData();Change();">Click me</button>
+
+
+<img id="img" src="https://samples.clarifai.com/metro-north.jpg" alt="No image!" height="300" width="400">
+<script>
+function Change(){
+
+	window.txt=box.value;
+	document.getElementById("para").innerHTML = txt;
+	document.getElementById("img").src = txt;
+
+	}
+</script>
+<script>
+	document.getElementById("ok").innerHTML = window.nice;
+
+</script>
+<script src="bundle.js"></script>
